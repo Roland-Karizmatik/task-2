@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> My favorite website </title>
+        <meta charset="UTF-8">
+        <title> Practice work </title>
+        <script>
+            function f1() {
+                var canvas =
+                document.getElementById("smlRectangle");
+                context = canvas.getContext("2d");
+                context.fillStyle = "rgb(0,0,255)";
+                context.fillrect(10,20,200,100);
+            }
+        </script>    
     </head>
-    <body>
-        <p> make sure your pet has plenty of
-        <i><b>fresh water</i>during hot weater.</p></b>
+    <body onload = "f1();">
+        <a href="https://www.pinterest.com/">Here is an interesting website</a>
+        <figure>
+            <img src="moi.jpg" alt="Me" width="200" eight="220"> Here is a picture of me</img>
+            <img src="me,jpg" alt="moi" width="200" eight="220">me again</img>
+            <figcaption>Me in the picture</figcaption>
+        </figure>
+        
+        <canvas id="smlRectangle" eight="220" width="200"></canvas>
     </body>
 </html>
